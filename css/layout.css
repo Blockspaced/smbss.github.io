@@ -179,7 +179,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #11ABB0; }
+ul#nav li.current a { color: #b01111; }
 
 
 /* ------------------------------------------------------------------ */
@@ -347,7 +347,7 @@ ul#nav li.current a { color: #11ABB0; }
   	-webkit-animation: css3html5 2s ease;
 }
 .objectivec {
-  	width: 50%;
+  	width: 40%;
   	-moz-animation: objectivec 2s ease;
   	-webkit-animation: objectivec 2s ease;
 }
@@ -372,6 +372,30 @@ ul#nav li.current a { color: #11ABB0; }
   	-webkit-animation: solidworks 2s ease;
 }
 
+.python {
+  	width: 50%;
+  	-moz-animation: python 2s ease;
+  	-webkit-animation: python 2s ease;
+}
+
+.java {
+  	width: 30%;
+  	-moz-animation: java 2s ease;
+  	-webkit-animation: java 2s ease;
+}
+
+.sql {
+  	width: 60%;
+  	-moz-animation: sql 2s ease;
+  	-webkit-animation: sql 2s ease;
+}
+
+.solidity {
+  	width: 20%;
+  	-moz-animation: solidity 2s ease;
+  	-webkit-animation: solidity 2s ease;
+}
+
 @-moz-keyframes swift {
   0%   { width: 0px;  }
   100% { width: 85%;  }
@@ -390,7 +414,7 @@ ul#nav li.current a { color: #11ABB0; }
 }
 @-moz-keyframes objectivec {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 40%;  }
 }
 @-moz-keyframes salesforce {
   0%   { width: 0px;  }
@@ -415,6 +439,46 @@ ul#nav li.current a { color: #11ABB0; }
 @-moz-keyframes solidworks {
   0%   { width: 0px;  }
   100% { width: 90%;  }
+}
+
+@-moz-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+
+@-moz-keyframes sql {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+
+@-moz-keyframes java {
+  0%   { width: 0px;  }
+  100% { width: 30%;  }
+}
+
+@-moz-keyframes solidity {
+  0%   { width: 0px;  }
+  100% { width: 20%;  }
+}
+
+@-webkit-keyframes solidity {
+  0%   { width: 0px;  }
+  100% { width: 20%;  }
+}
+
+@-webkit-keyframes java {
+  0%   { width: 0px;  }
+  100% { width: 30%;  }
+}
+
+@-webkit-keyframes sql {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+
+@-webkit-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
 }
 
 @-webkit-keyframes solidworks {
@@ -446,7 +510,7 @@ ul#nav li.current a { color: #11ABB0; }
 }
 @-webkit-keyframes objectivec {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 40%;  }
 }
 @-webkit-keyframes salesforce {
   0%   { width: 0px;  }
